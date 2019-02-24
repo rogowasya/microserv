@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+Будет удалено .idea/
+Будет удалено micro-config-service/.gitignore
+Будет удалено micro-config-service/src/main/java/
+Будет удалено micro-config-service/src/test/
+Будет удалено micro-prototyp-app/src/main/resources/static/
+Будет удалено micro-prototyp-app/src/main/resources/templates/
+Будет удалено micro-zuul-service/
+Будет удалено out/
+Будет удалено src/main/resources/static/
+Будет удалено src/main/resources/templates/

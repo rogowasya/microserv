@@ -1,15 +1,17 @@
-package ru.iteco.micro.microprototypapp;
+package ru.iteco.micro.microgatewayservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 @EnableEurekaClient
 @SpringBootApplication
-public class MicroPrototypAppApplication {
+@EnableZuulProxy
+public class MicroGatewayServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MicroPrototypAppApplication.class, args);
+        SpringApplication.run(MicroGatewayServiceApplication.class, args);
     }
 
 }

@@ -1,6 +1,8 @@
 
 # This default profile is used when running a single instance completely standalone:
 spring:
+  application:
+    name: micro-eureka-service
   profiles: default
 server:
   port: 9000

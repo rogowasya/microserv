@@ -1,4 +1,4 @@
-package ru.iteco.micro.microprototypapp.controller;
+package ru.iteco.micro.gatewayservice.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

@@ -1,13 +1,13 @@
+
 spring:
   application:
-    name: ABC-SERVICE # ==> This is Service-Id
-
+    name: micro-prototyp-app # ==> This is Service-Id
 
 ---
 # Items that apply to ALL profiles:
 eureka:
   instance:
-    appname: PROTOTYPE-APP
+    appname: micro-prototyp-app
   client:
     fetchRegistry: true
     serviceUrl:
