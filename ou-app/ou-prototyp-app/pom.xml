@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ou-prototyp-app</artifactId>
+    <version>${iteco.version}</version>
+    <name>ou-prototyp-app</name>
+    <description>Demo project for ouServ</description>
+
+    <parent>
+        <groupId>ru.iteco.ou</groupId>
+        <artifactId>ou-app</artifactId>
+        <version>3.0</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>ru.iteco.ou</groupId>
+            <artifactId>ou-model</artifactId>
+            <version>${iteco.version}</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

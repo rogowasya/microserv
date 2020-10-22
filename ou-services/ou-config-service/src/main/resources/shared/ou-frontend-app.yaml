@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: ou-frontend-app # ==> This is Service-Id
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        instanceId: ${spring.application.name}:${random.value}
+        register: true
+
+
+server:
+  port: 8100

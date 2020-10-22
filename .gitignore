@@ -8,12 +8,12 @@
 out
 gen
 Будет удалено .idea/
-Будет удалено micro-config-service/.gitignore
-Будет удалено micro-config-service/src/main/java/
-Будет удалено micro-config-service/src/test/
-Будет удалено micro-prototyp-app/src/main/resources/static/
-Будет удалено micro-prototyp-app/src/main/resources/templates/
-Будет удалено micro-zuul-service/
+Будет удалено ou-config-service/.gitignore
+Будет удалено ou-config-service/src/main/java/
+Будет удалено ou-config-service/src/test/
+Будет удалено ou-prototyp-app/src/main/resources/static/
+Будет удалено ou-prototyp-app/src/main/resources/templates/
+Будет удалено ou-zuul-service/
 Будет удалено out/
 Будет удалено src/main/resources/static/
 Будет удалено src/main/resources/templates/

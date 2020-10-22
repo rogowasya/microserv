@@ -1,0 +1,11 @@
+oupglocal:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/postgres"
+    username: "postgres"
+    password: "rogov3902"
+    driver: "org.postgresql.Driver"
+    dialect: "rg.hibernate.dialect.PostgreSQLDialect"
+    showSql: "true"
+    hbm2ddlAuto: "update" # Onli development. In production delete current parameter.
+
+# https://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#configurations-hbmddl

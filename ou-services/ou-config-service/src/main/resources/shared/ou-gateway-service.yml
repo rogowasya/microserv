@@ -1,0 +1,46 @@
+
+spring:
+  application:
+    name: ou-gateway-service # ==> This is Service-Id
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        instanceId: ${spring.application.name}:${random.value}
+        register: true
+
+server:
+  port: 8555
+
+ribbon:
+  ReadTimeout: 20000
+  ConnectTimeout: 20000
+
+zuul:
+  ignoredServices: '*'
+  routes:
+
+    ou-security-service:
+      path: /security/**
+      serviceId: ou-security-service
+
+    ou-prototyp-app:
+      path: /prototyp/**
+      serviceId: ou-prototyp-app
+
+    ou-frontend-app:
+      path: /frontend/**
+      serviceId: ou-frontend-app
+
+
+#security:
+#  oauth2:
+#    client:
+#      clientId: ou-gateway-service
+#      clientSecret: ou-gateway
+#      accessTokenUri: http://localhost:9100/token
+#      userAuthorizationUri: http://localhost:9100/auth
+#      scope: server
+#    resource:
+#      user-info-uri: http://localhost:9100/users/current
