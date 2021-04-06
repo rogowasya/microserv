@@ -27,7 +27,6 @@
     <modules>
         <module>ou-prototyp-app</module>
         <module>ou-frontend-app</module>
-        <module>ou-reports-app</module>
     </modules>
 
     <dependencies>
